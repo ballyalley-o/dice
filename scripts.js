@@ -1,5 +1,14 @@
 
   
+  const resizeOps = () => {
+    document.documentElement.style.setProperty("--vh", window.innerHeight * 0.01 + "px");
+  };
+
+  resizeOps();
+  window.addEventListener("resize", resizeOps);
+  
+  
+  
   let images = [
     "dice-svg/dice-one.svg",
     "dice-svg/dice-two.svg",
@@ -33,3 +42,6 @@
     
     }
     roll();
+
+
+    

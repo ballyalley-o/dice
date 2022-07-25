@@ -4,17 +4,23 @@
     box-sizing: border-box;
 
 }
-body{
+html, body{
     height: 100vh;
     background: linear-gradient(
         #3f4a54,
         #a2a5a6
     ) 0 100% no-repeat;
+    height: calc(var(--vh, 1vh) * 100);
+    
 
 background-size:100% 100%;
-
-
 }
+
+.modal {
+    width: 50vw;
+    height: 50vh;
+    height: calc(var(--vh, 1vh) * 50);
+  }
 
 .container{
     width: 300px;
