@@ -25,7 +25,7 @@
             console.log(dieOneValue,dieTwoValue);
             document.querySelector("#die-1").setAttribute("src", images[dieOneValue]);
             document.querySelector("#die-2").setAttribute("src", images[dieTwoValue]);
-            document.querySelector("#total").innerHTML = "Dude, your ROLL is " + 
+            document.querySelector("#total").innerHTML = "Dude, you GOT   " + 
             ( (dieOneValue +1) + (dieTwoValue +1) );
         },
         1000
